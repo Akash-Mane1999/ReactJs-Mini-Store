@@ -16,7 +16,7 @@ export function CartProvider({ children }) {
     setCart(cart.filter(item => item.id !== id));
   };
 
-  // SIDE EFFECT ✅ (assignment rule)
+  // SIDE EFFECT
   useEffect(() => {
     document.title = `Cart (${cart.length})`;
   }, [cart]);
