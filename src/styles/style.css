@@ -112,7 +112,7 @@ body {
 
 
 /* ===============================
-   PRODUCT CARD (PREMIUM)
+   PRODUCT CARD 
 ================================*/
 .product-card {
   position: relative;
@@ -139,7 +139,7 @@ body {
 }
 
 
-/* HOVER GLOW FIXED ✅ */
+
 .product-card::after {
   content: "";
   position: absolute;
@@ -156,17 +156,12 @@ body {
 
   transition: 0.4s;
 
-  pointer-events: none;   /* ⭐ BUTTON FIX */
+  pointer-events: none;   
 }
 
 .product-card:hover::after {
   opacity: 1;
-}
 
-
-/* ===============================
-   IMAGE ZOOM EFFECT
-================================*/
 .image-wrapper {
   overflow: hidden;
   border-radius: 12px;
